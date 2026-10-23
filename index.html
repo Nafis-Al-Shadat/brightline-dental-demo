@@ -44,7 +44,7 @@
     <section class="hero">
       <div class="container hero__inner">
         <div class="hero__text">
-          <span class="pill">⭐ Now accepting new patients</span>
+          <span class="pill"><span class="pill__icon" data-icon="star"></span> Now accepting new patients</span>
           <h1>Dental care that feels <span class="hl">calm</span>, not scary.</h1>
           <p class="lead">Check-ups, whitening, braces and emergency visits, with honest prices and a team that explains everything before we start.</p>
           <div class="hero__cta">
@@ -57,13 +57,10 @@
             <li><strong>Clear</strong><span>prices up front</span></li>
           </ul>
         </div>
-        <div class="hero__art" aria-hidden="true">
-          <div class="hero__card hero__card--main">
-            <svg viewBox="0 0 220 220"><circle cx="110" cy="110" r="100" fill="#E6F0FF"/><path d="M72 62c-14 0-24 13-22 29 2 24 11 69 28 69 11 0 12-29 22-29h20c10 0 11 29 22 29 17 0 26-45 28-69 2-16-8-29-22-29-15 0-25 10-38 10S87 62 72 62Z" fill="#fff" stroke="#1F6FEB" stroke-width="5" stroke-linejoin="round"/><path d="M150 52l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#FFB547"/><path d="M60 150l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#2BC48A"/></svg>
-          </div>
-          <div class="hero__card hero__card--float hero__card--a"><span class="dot dot--green"></span><div><strong>Next free slot</strong><span id="nextSlot">Tomorrow, 10:30</span></div></div>
-          <div class="hero__card hero__card--float hero__card--b"><span class="big">4.9</span><div><strong>Patient rating</strong><span>sample figure</span></div></div>
-        </div>
+        <figure class="hero__art">
+          <img src="img/hero.jpg" alt="A dentist talking with a relaxed patient in a bright treatment room" width="825" height="1024">
+          <a href="#book" class="hero__slot"><span class="dot dot--green"></span><div><strong>Next free slot</strong><span id="nextSlot">Tomorrow, 10:30</span></div></a>
+        </figure>
       </div>
     </section>
 
@@ -102,11 +99,26 @@
           <h2>Friendly experts, no lectures</h2>
         </div>
         <div class="team">
-          <article class="doc"><div class="doc__avatar" style="--c:#1F6FEB">SR</div><h3>Dr. Sara Rahman</h3><p class="doc__role">General &amp; family dentistry</p><p>Known for gentle check-ups and putting nervous patients at ease.</p></article>
-          <article class="doc"><div class="doc__avatar" style="--c:#2BC48A">DM</div><h3>Dr. Daniel Moore</h3><p class="doc__role">Orthodontics &amp; aligners</p><p>Straightens smiles with clear aligners and modern braces.</p></article>
-          <article class="doc"><div class="doc__avatar" style="--c:#FF8A5B">LC</div><h3>Dr. Lina Chen</h3><p class="doc__role">Cosmetic dentistry</p><p>Whitening, veneers and smile makeovers that still look natural.</p></article>
+          <article class="doc"><img class="doc__photo" src="img/doc1.jpg" alt="Dr. Sara Rahman" loading="lazy" width="1024" height="1024"><div class="doc__body"><h3>Dr. Sara Rahman</h3><p class="doc__role">General &amp; family dentistry</p><p>Known for gentle check-ups and putting nervous patients at ease.</p></div></article>
+          <article class="doc"><img class="doc__photo" src="img/doc2.jpg" alt="Dr. Daniel Moore" loading="lazy" width="1024" height="1024"><div class="doc__body"><h3>Dr. Daniel Moore</h3><p class="doc__role">Orthodontics &amp; aligners</p><p>Straightens smiles with clear aligners and modern braces.</p></div></article>
+          <article class="doc"><img class="doc__photo" src="img/doc3.jpg" alt="Dr. Lina Chen" loading="lazy" width="1024" height="1024"><div class="doc__body"><h3>Dr. Lina Chen</h3><p class="doc__role">Cosmetic dentistry</p><p>Whitening, veneers and smile makeovers that still look natural.</p></div></article>
         </div>
-        <p class="note">Team members are fictional, for demonstration only.</p>
+        <p class="note">Team members and photos are fictional (AI-generated), for demonstration only.</p>
+      </div>
+    </section>
+
+    <!-- INSIDE THE CLINIC -->
+    <section class="inside">
+      <div class="container inside__inner">
+        <figure class="inside__big"><img src="img/reception.jpg" alt="Bright reception and waiting area" loading="lazy" width="1024" height="765"></figure>
+        <div class="inside__side">
+          <div class="inside__text">
+            <span class="eyebrow">Inside the clinic</span>
+            <h2>Built to feel calm</h2>
+            <p>Daylight, plants and quiet treatment rooms. No clinical smell, no waiting-room chaos.</p>
+          </div>
+          <figure class="inside__small"><img src="img/room.jpg" alt="Modern treatment room with a window" loading="lazy" width="1024" height="765"></figure>
+        </div>
       </div>
     </section>
 
